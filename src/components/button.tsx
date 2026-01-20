@@ -1,14 +1,14 @@
 import React from 'react'
 import { theme } from '@/lib/theme';
 
-const Button = () => {
+const Button = (props: { content: string }) => {
     return (
         <button
-            style={{ backgroundColor: theme.colors.primary, color: theme.colors.text }}
-            className='pt-[18px] pb-[18px] pl-[63px] pr-[63px] gap-[10px] margin-left-[63px] margin-right-[63px]'
+            style={{ backgroundColor: theme.colors.primary, color: theme.colors.text, fontFamily: theme.fonts.button, fontWeight: theme.fonts.weight.bold }}
+            className='h-[56px] w-[194px] cursor-pointer'
         >
 
-            Find Course
+            {props.content}
         </button>
     )
 }

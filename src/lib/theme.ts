@@ -9,11 +9,15 @@ export const theme = {
     },
     fonts: {
         default: 'Poppins, sans-serif',
+        montserrat: 'Montserrat, sans-serif',
+        button: 'Kumbh Sans, sans-serif',
         weight: {
-            normal: 400,
+            normal: 300,
+            semiNormal: 400,
             medium: 500,
             semibold: 600,
             bold: 700,
+            heading: 900,
         },
         spacing: {
             normal: '0.05em',

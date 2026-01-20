@@ -1,13 +1,11 @@
-import TopBar from "@/app/Sections/Hero/components/TopBar";
-import MainNavbar from "@/app/Sections/Hero/components/MainNavbar";
-import Hero from "@/app/Sections/Hero/components/hero";
+import HeroSection from "./Sections/Hero/Hero";
+import OverviewSection from "./Sections/OverviewSection/OverviewSection";
 
 export default function Home() {
   return (
     <main className="relative min-h-screen bg-black">
-      <TopBar />
-      <MainNavbar />
-      <Hero />
+      <HeroSection />
+      <OverviewSection />
     </main>
   );
 }
