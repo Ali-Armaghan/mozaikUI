@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Creative from './components/creative'
 import { theme } from '@/lib/theme';
 import Button from '@/components/button';
+import Ellipse66 from './components/Ellipse66';
+import Ellipse67 from './components/Ellipse67';
 const studyarea = () => {
     const images = [
 
@@ -51,6 +53,12 @@ const studyarea = () => {
         <div>
             <section className='flex  flex-col h-[941px] bg-black'>
                 <div className='mt-[78px] flex flex-col justify-center w-full'>
+
+                    {/* <Ellipse66 /> */}
+                    <div className='absolute mt-[100px] h-[592px]'>
+                        <Ellipse67 />
+                    </div>
+
 
                     {/* heading */}
                     <div className="relative flex justify-center text-center h-[109px]">
