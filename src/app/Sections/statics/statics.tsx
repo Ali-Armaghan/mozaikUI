@@ -20,7 +20,7 @@ const statics = () => {
                 COLLEGES
               </div>
             </div>
-            <div className='h-[90px] w-[1px] bg-[#FFFFFF]' />
+            <div className='h-[90px] w-px bg-[#FFFFFF]' />
             {/* text 2 */}
             <div
               style={{ fontFamily: theme.fonts.montserrat, color: theme.colors.text }}>
@@ -33,7 +33,7 @@ const statics = () => {
                 COURSES
               </div>
             </div>
-            <div className='h-[90px] w-[1px] bg-[#FFFFFF]' />
+            <div className='h-[90px] w-px bg-[#FFFFFF]' />
             {/* text 3 */}
             <div
               style={{ fontFamily: theme.fonts.montserrat, color: theme.colors.text }}>
