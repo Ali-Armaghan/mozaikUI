@@ -51,17 +51,22 @@ const studyarea = () => {
     ]
     return (
         <div>
-            <section className='flex  flex-col h-[941px] bg-black'>
-                <div className='mt-[78px] flex flex-col justify-center w-full'>
+            <section className='flex  flex-col h-235.25 bg-black mt-19.5'>
+                <div className=' flex flex-col justify-center w-full relative'>
 
                     {/* <Ellipse66 /> */}
-                    <div className='absolute mt-[100px] h-[592px]'>
+                    <div className='absolute top-0 mt-28.75 h-148'>
                         <Ellipse67 />
+                    </div>
+
+                     {/* <Ellipse66 /> */}
+                    <div className='absolute right-0 bottom-134.25 mt-28.75 h-148'>
+                        <Ellipse66 />
                     </div>
 
 
                     {/* heading */}
-                    <div className="relative flex justify-center text-center h-[109px]">
+                    <div className=" flex justify-center text-center h-27.25">
                         <div className=' z-10'>
                             <Creative />
                         </div>
@@ -70,7 +75,7 @@ const studyarea = () => {
                             <div className='z-20 text-center uppercase tracking-[0.225em] text-[16px] mt-6'
                                 style={{ color: theme.colors.primary, fontFamily: theme.fonts.montserrat, fontWeight: theme.fonts.weight.semibold }}
                             >Overview</div>
-                            <div className='z-20 text-center text-[64px] h-[65px] flex leading-none'
+                            <div className='z-20 text-center text-[64px] h-16.25 flex leading-none'
                                 style={{ color: theme.colors.text, fontFamily: theme.fonts.montserrat, }}
                             > <span
                                 style={{ color: theme.colors.text, fontFamily: theme.fonts.montserrat, fontWeight: theme.fonts.weight.bold }}>creative </span>
@@ -82,18 +87,18 @@ const studyarea = () => {
                     </div>
 
                     {/* Description and Button */}
-                    <div className=' h-[158px] mt-[20px] w-full flex flex-col items-center'>
-                        <div className='w-[873px] text-center text-[18px] leading-[34px] h-[82px]'
+                    <div className=' h-39.5 mt-5 w-full flex flex-col items-center'>
+                        <div className='w-218.25 text-center text-[18px] leading-8.5 h-20.5'
                             style={{ fontFamily: theme.fonts.montserrat, fontWeight: theme.fonts.weight.semiNormal, color: theme.colors.text }}>
                             <p>Mozaik Partners allows recruiters to connect students with study areas within the growing creative economy. We have grouped these areas under 10 categories.</p>
                         </div>
-                        <div className='mt-[20px]'>
+                        <div className='mt-5'>
                             <Button content='SEE COURSES' />
                         </div>
                     </div>
 
                     {/* Images Rectangle */}
-                    <div className='h-[520px] mt-[70px] w-ful'>
+                    <div className='h-130 mt-17.5 w-ful'>
                         <div className='grid grid-cols-5'>
                             {
                                 images.map((image, index) => (
