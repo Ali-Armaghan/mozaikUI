@@ -1,6 +1,5 @@
-import React from 'react'
 import { theme } from '@/lib/theme';
-const statics = () => {
+const Statics = () => {
   return (
     <div>
       <section className="flex items-center flex-col h-[208px]">
@@ -74,4 +73,4 @@ const statics = () => {
   )
 }
 
-export default statics
+export default Statics

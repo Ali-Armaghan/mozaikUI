@@ -5,7 +5,7 @@ import { theme } from '@/lib/theme';
 import Button from '@/components/button';
 import Ellipse66 from './components/Ellipse66';
 import Ellipse67 from './components/Ellipse67';
-const studyarea = () => {
+const StudyArea = () => {
     const images = [
 
         {
@@ -59,7 +59,7 @@ const studyarea = () => {
                         <Ellipse67 />
                     </div>
 
-                     {/* <Ellipse66 /> */}
+                    {/* <Ellipse66 /> */}
                     <div className='absolute right-0 bottom-134.25 mt-28.75 h-148'>
                         <Ellipse66 />
                     </div>
@@ -117,4 +117,4 @@ const studyarea = () => {
     )
 }
 
-export default studyarea
+export default StudyArea
