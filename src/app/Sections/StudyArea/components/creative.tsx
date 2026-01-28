@@ -1,9 +1,9 @@
 import React from 'react'
 
-const creative = () => {
+const creative = ({width,height}:{width:number,height:number}) => {
     return (
         <div>
-            <svg width="611" height="109" viewBox="0 0 611 109" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg width={width} height={height} viewBox="0 0 611 109" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g opacity="0.2">
                     <mask id="path-1-outside-1_0_253" maskUnits="userSpaceOnUse" x="-0.672974" y="-0.911987" width="612" height="110" fill="black">
                         <rect fill="white" x="-0.672974" y="-0.911987" width="612" height="110" />
