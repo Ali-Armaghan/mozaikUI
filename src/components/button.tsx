@@ -1,16 +1,26 @@
-import React from 'react'
 import { theme } from '@/lib/theme';
 
-const Button = (props: { content: string }) => {
+interface ButtonProps {
+    content: string;
+    size?: number;
+}
+
+const Button = ({ content, size = 194 }: ButtonProps) => {
     return (
         <button
-            style={{ backgroundColor: theme.colors.primary, color: theme.colors.text, fontFamily: theme.fonts.button, fontWeight: theme.fonts.weight.bold }}
-            className='h-[56px] w-[194px] cursor-pointer'
+            className='h-[56px] cursor-pointer hover:bg-amber-200 hover:text-black transition-colors'
+            style={{
+                backgroundColor: theme.colors.primary,
+                color: theme.colors.text,
+                fontFamily: theme.fonts.button,
+                fontWeight: theme.fonts.weight.bold,
+                width: `${size}px`
+            }}
         >
-
-            {props.content}
+            {content}
         </button>
     )
 }
 
 export default Button
+

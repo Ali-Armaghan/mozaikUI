@@ -51,7 +51,7 @@ const StudyArea = () => {
     ]
     return (
         <div>
-            <section className='flex  flex-col h-235.25 bg-black mt-19.5'>
+            <section className='flex  flex-col h-242 bg-black mt-19.5'>
                 <div className=' flex flex-col justify-center w-full relative'>
 
                     {/* <Ellipse66 /> */}
@@ -74,7 +74,7 @@ const StudyArea = () => {
                         <div className='absolute flex flex-col items-center z-20'>
                             <div className='z-20 text-center uppercase tracking-[0.225em] text-[16px] mt-6'
                                 style={{ color: theme.colors.primary, fontFamily: theme.fonts.montserrat, fontWeight: theme.fonts.weight.semibold }}
-                            >Overview</div>
+                            >STUDY AREAS</div>
                             <div className='z-20 text-center text-[64px] h-16.25 flex leading-none'
                                 style={{ color: theme.colors.text, fontFamily: theme.fonts.montserrat, }}
                             > <span
