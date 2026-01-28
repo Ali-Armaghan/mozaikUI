@@ -1,9 +1,9 @@
 import React from 'react'
 
-const logo = () => {
+const logo = ({width, height}: {width: number, height: number}) => {
     return (
         <div>
-            <svg width="101" height="83" viewBox="0 0 101 83" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+            <svg width={width} height={height} viewBox="0 0 101 83" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                 <rect width="101" height="83" fill="url(#pattern0_0_24)" filter="url(#icon_recolor)" />
                 <defs>
                     <filter id="icon_recolor" colorInterpolationFilters="sRGB">

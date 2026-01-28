@@ -3,7 +3,7 @@ import React from 'react'
 const worldwidee = () => {
     return (
         <div>
-            <svg className="w-full h-auto" viewBox="0 0 798 109" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className="w-screen h-auto md:w-full md:h-auto " viewBox="0 0 798 109" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g opacity="0.2">
                     <mask id="path-1-outside-1_0_441" maskUnits="userSpaceOnUse" x="-0.228546" y="-0.912109" width="798" height="110" fill="black">
                         <rect fill="white" x="-0.228546" y="-0.912109" width="798" height="110" />

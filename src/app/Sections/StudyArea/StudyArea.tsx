@@ -51,31 +51,34 @@ const StudyArea = () => {
     ]
     return (
         <div>
-            <section className='flex  flex-col h-235.25 bg-black mt-19.5'>
-                <div className=' flex flex-col justify-center w-full relative'>
+            <section className='flex  flex-col md:h-235.25 h-screen bg-black mt-19.5'>
+                <div className=' flex flex-col justify-center md:w-full w-screen relative'>
 
                     {/* <Ellipse66 /> */}
-                    <div className='absolute top-0 mt-28.75 h-148'>
+                    <div className='absolute top-0 mt-28.75 md:h-148 h-screen'>
                         <Ellipse67 />
                     </div>
 
                     {/* <Ellipse66 /> */}
-                    <div className='absolute right-0 bottom-134.25 mt-28.75 h-148'>
+                    <div className='absolute right-0 bottom-134.25 mt-28.75 md:h-148 h-screen'>
                         <Ellipse66 />
                     </div>
 
 
                     {/* heading */}
-                    <div className=" flex justify-center text-center h-27.25">
-                        <div className=' z-10'>
-                            <Creative />
+                    <div className=" flex justify-center text-center h-27.25 ">
+                        <div className='md:block hidden z-10'>
+                            <Creative width={611} height={109} />
+                        </div>
+                        <div className='md:hidden'>
+                            <Creative width={300} height={109} />
                         </div>
                         {/* front text */}
                         <div className='absolute flex flex-col items-center z-20'>
                             <div className='z-20 text-center uppercase tracking-[0.225em] text-[16px] mt-6'
                                 style={{ color: theme.colors.primary, fontFamily: theme.fonts.montserrat, fontWeight: theme.fonts.weight.semibold }}
                             >Overview</div>
-                            <div className='z-20 text-center text-[64px] h-16.25 flex leading-none'
+                            <div className='z-20 text-center md:text-[64px] text-[28px] h-16.25 flex leading-none'
                                 style={{ color: theme.colors.text, fontFamily: theme.fonts.montserrat, }}
                             > <span
                                 style={{ color: theme.colors.text, fontFamily: theme.fonts.montserrat, fontWeight: theme.fonts.weight.bold }}>creative </span>
@@ -87,19 +90,19 @@ const StudyArea = () => {
                     </div>
 
                     {/* Description and Button */}
-                    <div className=' h-39.5 mt-5 w-full flex flex-col items-center'>
-                        <div className='w-218.25 text-center text-[18px] leading-8.5 h-20.5'
+                    <div className=' md:h-39.5 h-auto mt-5 md:w-full w-screen flex flex-col items-center'>
+                        <div className='md:w-218.25 w-screen text-center text-[18px] leading-8.5 h-20.5'
                             style={{ fontFamily: theme.fonts.montserrat, fontWeight: theme.fonts.weight.semiNormal, color: theme.colors.text }}>
                             <p>Mozaik Partners allows recruiters to connect students with study areas within the growing creative economy. We have grouped these areas under 10 categories.</p>
                         </div>
-                        <div className='mt-5'>
+                        <div className='md:mt-5 mt-30'>
                             <Button content='SEE COURSES' />
                         </div>
                     </div>
 
                     {/* Images Rectangle */}
-                    <div className='h-130 mt-17.5 w-ful'>
-                        <div className='grid grid-cols-5'>
+                    <div className='md:h-130 h-auto mt-17.5 md:w-full w-screen p-2'>
+                        <div className='grid md:grid-cols-5 grid-cols-2 '>
                             {
                                 images.map((image, index) => (
                                     <div key={index}>

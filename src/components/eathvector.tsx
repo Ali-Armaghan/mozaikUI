@@ -1,9 +1,9 @@
 import React from 'react'
 
-const EarthVector = () => {
+const EarthVector = ({width, height}: {width: number, height: number}) => {
     return (
         <div>
-            <svg width="1118" height="472" viewBox="0 0 1118 472" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+            <svg width={width} height={height} viewBox="0 0 1118 472" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                 <rect width="1118" height="472" fill="url(#pattern0_0_393)" />
                 <path fillRule="evenodd" clipRule="evenodd" d="M200 147.408C200 146.174 200.361 144.967 201.039 143.931C201.716 142.896 202.683 142.075 203.822 141.567C204.96 141.06 206.223 140.888 207.459 141.071C208.694 141.255 209.85 141.787 210.787 142.602C211.724 143.418 212.403 144.483 212.741 145.67C213.08 146.857 213.065 148.116 212.697 149.294C212.33 150.473 211.625 151.522 210.668 152.315C209.712 153.108 208.544 153.612 207.304 153.766V162.5C207.304 162.712 207.218 162.916 207.066 163.066C206.914 163.217 206.708 163.301 206.492 163.301C206.277 163.301 206.071 163.217 205.919 163.066C205.766 162.916 205.681 162.712 205.681 162.5V153.768C204.111 153.573 202.668 152.819 201.622 151.647C200.576 150.476 199.999 148.968 200 147.406V147.408Z" fill="#FE4D6A" />
                 <g filter="url(#filter0_f_0_393)">
