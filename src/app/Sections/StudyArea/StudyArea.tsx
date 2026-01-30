@@ -51,7 +51,7 @@ const StudyArea = () => {
     ]
     return (
         <div>
-            <section className='flex  flex-col h-242 bg-black mt-19.5'>
+            <section className='relative flex flex-col h-auto bg-black mt-19.5 pb-20'>
                 <div className=' flex flex-col justify-center w-full relative'>
 
                     {/* <Ellipse66 /> */}
@@ -98,7 +98,7 @@ const StudyArea = () => {
                     </div>
 
                     {/* Images Rectangle */}
-                    <div className='h-130 mt-17.5 w-ful'>
+                    <div className='mt-17.5 w-full'>
                         <div className='grid grid-cols-5'>
                             {
                                 images.map((image, index) => (

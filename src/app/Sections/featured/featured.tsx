@@ -10,10 +10,10 @@ import Global from './components/global';
 const featured = () => {
   return (
     <div>
-      <section className="flex flex-col items-center top-705.5 h-669.5bg-black">
+      <section className="relative flex flex-col items-center bg-black py-20">
         {/* SECTION 01 premium College */}
 
-        <div className=" flex h-154  mt-8.5 w-full bg-black justify-center items-center">
+        <div className="flex min-h-[616px] mt-8.5 w-full bg-black justify-center items-center py-10">
           {/* content */}
           <div className="flex flex-row h-[491px]  w-[1264px]">
             <div className='flex flex-col'>
@@ -68,7 +68,7 @@ const featured = () => {
 
         {/* SECTION 02 easy to use platform */}
 
-        <div className="h-[655px] w-full flex justify-center items-center">
+        <div className="min-h-[655px] w-full flex justify-center items-center py-10">
           {/* child div */}
           <div className="h-[563px] w-[1295px] flex justify-center items-center gap-[60px]">
             {/* image left side */}
@@ -159,7 +159,7 @@ const featured = () => {
 
         {/* SECTION 03 easy to use platform */}
 
-        <div className='h-[635px] w-full flex justify-center items-center '>
+        <div className='min-h-[635px] w-full flex justify-center items-center py-10'>
           {/* child div */}
           <div className='h-[582px] w-[1295px] flex items-center '>
             {/* content left side */}
@@ -386,7 +386,7 @@ const featured = () => {
 
         {/* SECTION 04  Low Fees */}
 
-        <div className="h-[655px] w-full flex justify-center items-center">
+        <div className="min-h-[655px] w-full flex justify-center items-center py-10">
           {/* child div */}
           <div className="h-[563px] w-[1295px] flex justify-center items-center gap-[60px]">
             {/* image left side */}

@@ -3,6 +3,7 @@ import OverviewSection from "./Sections/Overview/OverviewSection";
 import Statics from "./Sections/Statics/Statics";
 import StudyArea from "./Sections/StudyArea/StudyArea";
 import Featured from "./Sections/featured/featured";
+import Services from "./Sections/Services/services";
 export default function Home() {
   return (
     <main className="relative min-h-screen bg-black">
@@ -11,6 +12,7 @@ export default function Home() {
       <Statics />
       <StudyArea />
       <Featured />
+      <Services />
     </main>
   );
 }
