@@ -10,7 +10,7 @@ import Global from './components/global';
 const featured = () => {
   return (
     <div>
-      <section className="flex flex-col items-center top-705.5 h-669.5 bg-amber-400">
+      <section className="flex flex-col items-center top-705.5 h-669.5bg-black">
         {/* SECTION 01 premium College */}
 
         <div className=" flex h-154  mt-8.5 w-full bg-black justify-center items-center">
@@ -68,7 +68,7 @@ const featured = () => {
 
         {/* SECTION 02 easy to use platform */}
 
-        <div className="h-[655px] w-full flex justify-center items-center bg-black">
+        <div className="h-[655px] w-full flex justify-center items-center">
           {/* child div */}
           <div className="h-[563px] w-[1295px] flex justify-center items-center gap-[60px]">
             {/* image left side */}
@@ -159,11 +159,11 @@ const featured = () => {
 
         {/* SECTION 03 easy to use platform */}
 
-        <div className='h-[635px] w-full flex justify-center items-center bg-amber-200'>
+        <div className='h-[635px] w-full flex justify-center items-center '>
           {/* child div */}
-          <div className='h-[582px] w-[1295px] bg-amber-700 '>
+          <div className='h-[582px] w-[1295px] flex items-center '>
             {/* content left side */}
-            <div className='h-[582px] w-[680px] bg-black gap-[20px] flex flex-col '>
+            <div className='h-[582px] w-[680px] gap-[20px] flex flex-col '>
               {/* heading */}
               <div className="relative flex flex-col justify-start text-left min-h-[160px]">
                 {/* front text - determines height */}
@@ -184,15 +184,289 @@ const featured = () => {
                 </div>
               </div>
               {/* Arrow Points */}
-              <div className='h-[406px] w-[518px]  bg-amber-300'>
-                Hi
+              <div className='h-[406px] w-[518px]  '>
+                {/* 1st row */}
+                <div className='h-[223px] w-[518px] flex justify-between gap-[49px]'>
+                  {/* left 1st */}
+                  <div className='w-[123px]'>
+                    {/* heading */}
+                    <div
+                      style={{ fontFamily: theme.fonts.montserrat, fontWeight: theme.fonts.weight.bold, color: theme.colors.text }}
+                      className='text-[18px] leading-[34px]'>
+                      Europe
+                    </div>
+                    {/* list */}
+                    <div style={{ fontFamily: theme.fonts.default, fontWeight: theme.fonts.weight.semiNormal, color: theme.colors.text }}
+                      className='text-[18px] leading-[28px] tracking-normal mt-[12px]'>
+                      <ul>
+                        <li className='flex items-start gap-4 mb-[10px]'>
+                          <div className='mt-[6px] shrink-0'>
+                            <Arrowhead />
+                          </div>
+                          <span>France</span>
+                        </li>
+                        <li className='flex items-start gap-4 mb-[10px]'>
+                          <div className='mt-[6px] shrink-0'>
+                            <Arrowhead />
+                          </div>
+                          <span>Spain</span>
+                        </li>
+                        <li className='flex items-start gap-4 mb-[10px]'>
+                          <div className='mt-[6px] shrink-0'>
+                            <Arrowhead />
+                          </div>
+                          <span>Belgium</span>
+                        </li>
+                        <li className='flex items-start gap-4 mb-[10px]'>
+                          <div className='mt-[6px] shrink-0'>
+                            <Arrowhead />
+                          </div>
+                          <span>Italy</span>
+                        </li>
+                        <li className='flex items-start gap-4 mb-[10px]'>
+                          <div className='mt-[6px] shrink-0'>
+                            <Arrowhead />
+                          </div>
+                          <span>Germany</span>
+                        </li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  {/* center 2nd */}
+                  <div className='w-[153px]'>
+                    {/* heading */}
+                    <div
+                      style={{ fontFamily: theme.fonts.montserrat, fontWeight: theme.fonts.weight.bold, color: theme.colors.text }}
+                      className='text-[18px] leading-[34px]'>
+                      Asia Pacific
+                    </div>
+                    {/* list */}
+                    <div style={{ fontFamily: theme.fonts.default, fontWeight: theme.fonts.weight.semiNormal, color: theme.colors.text }}
+                      className='text-[18px] leading-[26px] tracking-normal mt-[12px]'>
+                      <ul>
+                        <li className='flex items-start gap-4 mb-[10px]'>
+                          <div className='mt-[6px] shrink-0'>
+                            <Arrowhead />
+                          </div>
+                          <span>Australia</span>
+                        </li>
+                        <li className='flex items-start gap-4 mb-[10px]'>
+                          <div className='mt-[6px] shrink-0'>
+                            <Arrowhead />
+                          </div>
+                          <span>New Zealand</span>
+                        </li>
+                        <li className='flex items-start gap-4 mb-[10px]'>
+                          <div className='mt-[6px] shrink-0'>
+                            <Arrowhead />
+                          </div>
+                          <span>Singapore</span>
+                        </li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  {/* right 3rd */}
+                  <div className='w-[144px]'>
+                    {/* heading */}
+                    <div
+                      style={{ fontFamily: theme.fonts.montserrat, fontWeight: theme.fonts.weight.bold, color: theme.colors.text }}
+                      className='text-[18px] leading-[34px]'>
+                      Europe
+                    </div>
+                    {/* list */}
+                    <div style={{ fontFamily: theme.fonts.default, fontWeight: theme.fonts.weight.semiNormal, color: theme.colors.text }}
+                      className='text-[18px] leading-[28px] tracking-normal mt-[12px]'>
+                      <ul>
+                        <li className='flex items-start gap-4 mb-[10px]'>
+                          <div className='mt-[6px] shrink-0'>
+                            <Arrowhead />
+                          </div>
+                          <span>France</span>
+                        </li>
+                        <li className='flex items-start gap-4 mb-[10px]'>
+                          <div className='mt-[6px] shrink-0'>
+                            <Arrowhead />
+                          </div>
+                          <span>Spain</span>
+                        </li>
+                        <li className='flex items-start gap-4 mb-[10px]'>
+                          <div className='mt-[6px] shrink-0'>
+                            <Arrowhead />
+                          </div>
+                          <span>Belgium</span>
+                        </li>
+                        <li className='flex items-start gap-4 mb-[10px]'>
+                          <div className='mt-[6px] shrink-0'>
+                            <Arrowhead />
+                          </div>
+                          <span>Italy</span>
+                        </li>
+                        <li className='flex items-start gap-4 mb-[10px]'>
+                          <div className='mt-[6px] shrink-0'>
+                            <Arrowhead />
+                          </div>
+                          <span>Germany</span>
+                        </li>
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+                {/* 2nd row */}
+                <div className='mt-[25px] flex gap-[27px]'>
+                  {/* 1st */}
+                  <div className='w-[145px]'>
+                    {/* heading */}
+                    <div
+                      style={{ fontFamily: theme.fonts.montserrat, fontWeight: theme.fonts.weight.bold, color: theme.colors.text }}
+                      className='text-[18px] leading-[34px]'>
+                      South America
+                    </div>
+                    {/* list */}
+                    <div style={{ fontFamily: theme.fonts.default, fontWeight: theme.fonts.weight.semiNormal, color: theme.colors.text }}
+                      className='text-[18px] leading-[28px] tracking-normal mt-[14px]'>
+                      <ul>
+                        <li className='flex items-start gap-4 mb-[10px]'>
+                          <div className='mt-[6px] shrink-0'>
+                            <Arrowhead />
+                          </div>
+                          <span>Colombia</span>
+                        </li>
+                        <li className='flex items-start gap-4 mb-[10px]'>
+                          <div className='mt-[6px] shrink-0'>
+                            <Arrowhead />
+                          </div>
+                          <span>Mexico</span>
+                        </li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  {/* 2nd */}
+                  <div className='w-[144px]'>
+                    {/* heading */}
+                    <div
+                      style={{ fontFamily: theme.fonts.montserrat, fontWeight: theme.fonts.weight.bold, color: theme.colors.text }}
+                      className='text-[18px] leading-[34px]'>
+                      South America
+                    </div>
+                    {/* list */}
+                    <div style={{ fontFamily: theme.fonts.default, fontWeight: theme.fonts.weight.semiNormal, color: theme.colors.text }}
+                      className='text-[18px] leading-[28px] tracking-normal mt-[14px]'>
+                      <ul>
+                        <li className='flex items-start gap-4 mb-[10px]'>
+                          <div className='mt-[6px] shrink-0'>
+                            <Arrowhead />
+                          </div>
+                          <span>Colombia</span>
+                        </li>
+                        <li className='flex items-start gap-4 mb-[10px]'>
+                          <div className='mt-[6px] shrink-0'>
+                            <Arrowhead />
+                          </div>
+                          <span>Mexico</span>
+                        </li>
+                      </ul>
+
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
-            {/* image right side */}
-            <div>
-
+            <div className=' w-[615px] flex justify-end'>
+              <Image width={518} height={406} src="/images/countless_Image.png" alt="countless_Image" />
             </div>
 
+          </div>
+
+        </div>
+
+        {/* SECTION 04  Low Fees */}
+
+        <div className="h-[655px] w-full flex justify-center items-center">
+          {/* child div */}
+          <div className="h-[563px] w-[1295px] flex justify-center items-center gap-[60px]">
+            {/* image left side */}
+            <div className='h-[563px] w-[550px] flex justify-center items-center'>
+              <Image width={534} height={388.75} src='/images/low_Fee.png' alt="" />
+            </div>
+
+            {/* content right side */}
+            <div className='h-[563px] w-[745px] gap-[20px] flex flex-col'>
+              {/* heading */}
+              <div>
+
+                <div className='flex flex-col'>
+                  {/* heading */}
+                  <div className=" flex justify-left text-left h-27.25 mt-1">
+
+                    {/* front text */}
+                    <div className='absolute flex flex-col items-left z-20'>
+                      <div className='z-20 uppercase tracking-[0.225em] text-[16px]'
+                        style={{ color: theme.colors.primary, fontFamily: theme.fonts.montserrat, fontWeight: theme.fonts.weight.semibold }}
+                      >TAGLINE HERE</div>
+                      <div className='z-20 text-[64px] h-16.25 flex leading-none '
+                        style={{ color: theme.colors.text, fontFamily: theme.fonts.montserrat, }}
+                      >
+                        <span
+                          style={{ color: theme.colors.text, fontFamily: theme.fonts.montserrat, fontWeight: theme.fonts.weight.normal }}>low fees,</span>
+
+                        <span
+                          style={{ color: theme.colors.text, fontFamily: theme.fonts.montserrat, fontWeight: theme.fonts.weight.bold }}>&nbsp;high return</span>
+                      </div>
+                    </div>
+                    <div className=' z-10'>
+                      <Program />
+                    </div>
+                  </div>
+                  {/* Description*/}
+                  <div className='flex flex-col w-[629px] gap-[25px]'>
+                    <div className='w-[629px] text-left text-[18px] leading-7.5'
+                      style={{ fontFamily: theme.fonts.montserrat, fontWeight: theme.fonts.weight.semiNormal, color: theme.colors.text }}>
+                      <p>Attractive commercial terms facilitate stronger relationships between partners. We provide:</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              {/* KeyPoints and button */}
+              <div className='h-[277px] w-[643px] flex '>
+                {/* text */}
+                <div style={{ fontFamily: theme.fonts.default, fontWeight: theme.fonts.weight.semiNormal, color: theme.colors.text }}
+                  className='text-[18px] leading-[28px] tracking-normal'>
+                  <ol className='space-y-6'>
+                    <li className='flex items-start gap-4'>
+                      <div className='mt-[6px] shrink-0'>
+                        <Arrowhead />
+                      </div>
+                      <span>Low subscription fee (from USD $99/month) with higher than standard commission payments (avg. USD $2,000 per student enrolled).</span>
+                    </li>
+                    <li className='flex items-start gap-4'>
+                      <div className='mt-[6px] shrink-0'>
+                        <Arrowhead />
+                      </div>
+                      <span>Seamless and quick commission payments with full visibility.</span>
+                    </li>
+                    <li className='flex items-start gap-4'>
+                      <div className='mt-[6px] shrink-0'>
+                        <Arrowhead />
+                      </div>
+                      <span>Just in case you missed it, we pass over the full commission amount we receive from the colleges - our members get 100% of the commission!</span>
+                    </li>
+
+                  </ol>
+                </div>
+              </div>
+              <div className='h-[560px] w-[248px]'>
+                <Button
+                  content="CHECK OUR PRICING"
+                  size={217} />
+              </div>
+
+            </div>
           </div>
 
         </div>
