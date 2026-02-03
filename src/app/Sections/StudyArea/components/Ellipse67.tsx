@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Ellipse67 = () => {
     return (
         <div>
@@ -13,7 +11,6 @@ const Ellipse67 = () => {
                     </linearGradient>
                 </defs>
             </svg>
-
         </div>
     )
 }
