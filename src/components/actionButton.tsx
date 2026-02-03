@@ -5,7 +5,7 @@ const ActionButton = (props: { content: string }) => {
     return (
         <button
             style={{ color: theme.colors.text, fontFamily: theme.fonts.button, fontWeight: theme.fonts.weight.bold }}
-            className='h-[56px] w-[252px] bg-none border-solid border-2 border-[#ffffff] cursor-pointer'
+            className='h-[56px] md:w-[252px] w-[194px] bg-none border-solid border-2 border-[#ffffff] cursor-pointer'
         >
 
             {props.content}

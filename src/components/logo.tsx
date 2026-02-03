@@ -2,8 +2,8 @@ import React from 'react'
 
 const logo = () => {
     return (
-        <div>
-            <svg width="101" height="83" viewBox="0 0 101 83" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+        <div className="w-full h-full">
+            <svg viewBox="0 0 101 83" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className="w-full h-full" preserveAspectRatio="xMidYMid meet">
                 <rect width="101" height="83" fill="url(#pattern0_0_24)" filter="url(#icon_recolor)" />
                 <defs>
                     <filter id="icon_recolor" colorInterpolationFilters="sRGB">
