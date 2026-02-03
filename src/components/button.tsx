@@ -10,7 +10,7 @@ interface ButtonProps {
 const Button = ({ content, size = 194, color = theme.colors.text, bg = theme.colors.primary }: ButtonProps) => {
     return (
         <button
-            className='h-[56px] cursor-pointer hover:bg-amber-200 hover:text-black transition-colors'
+            className='h-[56px] cursor-pointer '
             style={{
                 backgroundColor: bg,
                 color: color,

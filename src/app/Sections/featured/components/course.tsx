@@ -1,8 +1,8 @@
 
 const Course = () => {
     return (
-        <div>
-            <svg width="581" height="75" viewBox="0 0 581 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div className="w-full max-w-[581px]">
+            <svg className="w-full h-auto" viewBox="0 0 581 75" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g opacity="0.2">
                     <mask id="path-1-outside-1_0_199" maskUnits="userSpaceOnUse" x="-0.687988" y="-0.703979" width="581" height="76" fill="black">
                         <rect fill="white" x="-0.687988" y="-0.703979" width="581" height="76" />
