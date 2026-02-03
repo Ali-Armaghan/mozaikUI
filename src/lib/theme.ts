@@ -5,6 +5,7 @@ export const theme = {
         icon: '#DE425B',
         background: '#121212',
         text: '#FFFFFF',
+        link: '#A8A8A8',
 
     },
     fonts: {
