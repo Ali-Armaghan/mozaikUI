@@ -1,8 +1,8 @@
 
 const Program = () => {
     return (
-        <div>
-            <svg width="630" height="100" viewBox="0 0 630 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div className="w-full max-w-[630px]">
+            <svg className="w-full h-auto" viewBox="0 0 630 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g opacity="0.2">
                     <mask id="path-1-outside-1_0_145" maskUnits="userSpaceOnUse" x="-0.4" y="-0.703979" width="630" height="101" fill="black">
                         <rect fill="white" x="-0.4" y="-0.703979" width="630" height="101" />

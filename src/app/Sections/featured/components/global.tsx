@@ -2,8 +2,8 @@
 
 const Global = () => {
     return (
-        <div>
-            <svg width="459" height="124" viewBox="0 0 459 124" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div className="w-full">
+            <svg className="w-full h-auto" viewBox="0 0 459 124" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g opacity="0.2">
                     <mask id="path-1-outside-1_0_230" maskUnits="userSpaceOnUse" x="-0.687988" y="-0.0239868" width="460" height="124" fill="black">
                         <rect fill="white" x="-0.687988" y="-0.0239868" width="460" height="124" />
